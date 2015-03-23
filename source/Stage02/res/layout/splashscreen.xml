@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StarFighterActivity" >
+
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/splashScreenImage"
+        android:src="@drawable/splash"
+        android:scaleType="fitXY"
+        />
+    
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/creditsText"
+        android:text="have a good time"
+        android:layout_gravity="center_horizontal|bottom"
+        />
+ </FrameLayout>
